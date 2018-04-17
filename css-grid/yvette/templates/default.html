@@ -5,12 +5,16 @@
 
 <body>
 
-  <!-- header partial -->
-  {% include "partials/header.html" %}
-  <!-- main content partial -->
-  {% block content %}{% endblock %}
-  <!-- footer partial -->
-  {% include "partials/footer.html" %}
+  <div class="wrapper">
+
+    <!-- header partial -->
+    {% include "partials/header.html" %}
+    <!-- main content partial -->
+    {% block content %}{% endblock %}
+    <!-- footer partial -->
+    {% include "partials/footer.html" %}
+
+  </div>
   <!-- scripts partial -->
   {% include "partials/scripts.html" %}
 
