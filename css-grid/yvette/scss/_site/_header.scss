@@ -13,6 +13,7 @@
     grid-area: logo;
     height: 120px;
     margin: 0;
+    overflow: hidden;
     text-indent: -9999px;
     width: 120px;
 
@@ -26,8 +27,8 @@
     box-shadow: 0 1px 0 #f5f5f5;
     display: grid;
     grid-area: nav;
+    grid-auto-flow: column;
     grid-gap: 16px;
-    grid-template-columns: repeat(5, auto);
     justify-content: center;
     justify-self: stretch;
     list-style: none;
@@ -126,9 +127,9 @@
 
     .nav {
         align-items: stretch;
+        grid-auto-flow: row;
+        grid-auto-rows: minmax(32px, 1fr);
         grid-gap: 18px;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, minmax(32px, 1fr));
         justify-content: left;
         justify-self: left;
         margin: 0;
@@ -152,10 +153,59 @@
 
     .promos {
         display: block;
+        max-width: 140px;
+    }
+
+    .promo-title {
+        border-bottom: 1px dashed #e5e5e5;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0 0 9px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+    }
+
+    .promo-item {
+        margin-top: 32px;
+    }
+
+    .promo-description {
+        font-size: .66em;
+        font-style: italic;
+        line-height: 1.6;
+        margin: 0 0 15px;
+    }
+
+    .btn {
+        background: #ffffff no-repeat 6px 6px;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px #f5f5f5;
+        color: #34ac98;
+        cursor: pointer;
+        font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
+        font-size: .66em;
+        font-style: italic;
+        padding: 7px 0 7px 25px;
+        text-align: left;
+        transition: all .2s ease;
+        width: 100%;
+
+        &.btn-twitter {
+            background-image: url(../img/icon-twitter-16.png);
+        }
+
+        &.btn-facebook {
+            background-image: url(../img/icon-facebook-16.png);
+        }
+
+        &:hover {
+            background-color: #eff8f7;
+            border-color: #d3ede9;
+            color: #ec6635;
+        }
     }
 }
 
 @media only screen and (min-width: 1176px) {
-    .header {
-    }
 }
