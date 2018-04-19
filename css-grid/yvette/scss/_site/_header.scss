@@ -53,6 +53,7 @@
 /* ***************************
 * ****** Media Queries ******
 * ************************** */
+
 @media only screen and (min-width: 480px) {
     .header {
         grid-gap: 0;
@@ -205,7 +206,4 @@
             color: #ec6635;
         }
     }
-}
-
-@media only screen and (min-width: 1176px) {
 }
