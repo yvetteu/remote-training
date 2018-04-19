@@ -34,7 +34,12 @@
 .slide-link {
     grid-column: 1;
     grid-row: 1;
+    transition: opacity .2s ease;
     z-index: 2;
+
+    &:hover {
+        opacity: .8;
+    }
 }
 
 .slide-title {
@@ -206,12 +211,7 @@
         display: grid;
         grid-column: 1;
         grid-row: 2;
-        transition: opacity .2s ease;
         z-index: 2;
-
-        &:hover {
-            opacity: .85;
-        }
     }
 
     .slide-title {
