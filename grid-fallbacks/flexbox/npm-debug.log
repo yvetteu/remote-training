@@ -1,0 +1,1157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/pliskeb/.nvm/versions/node/v4.4.7/bin/node',
+1 verbose cli   '/Users/pliskeb/.nvm/versions/node/v4.4.7/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose readDependencies loading dependencies from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/package.json
+5 warn package.json responsive-template@1.0.0 No license field.
+6 verbose install where, deps [ '/Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox',
+6 verbose install   [ 'browser-sync',
+6 verbose install     'gulp',
+6 verbose install     'gulp-autoprefixer',
+6 verbose install     'gulp-concat',
+6 verbose install     'gulp-imagemin',
+6 verbose install     'gulp-minify',
+6 verbose install     'gulp-nunjucks-render',
+6 verbose install     'gulp-sass',
+6 verbose install     'gulp-sourcemaps',
+6 verbose install     'imagemin-pngquant',
+6 verbose install     'sassdoc' ] ]
+7 verbose install where, peers [ '/Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox',
+7 verbose install   [] ]
+8 verbose installManyTop reading for lifecycle /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/package.json
+9 info preinstall responsive-template@1.0.0
+10 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/browser-sync/package.json
+11 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp/package.json
+12 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-autoprefixer/package.json
+13 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-concat/package.json
+14 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-imagemin/package.json
+15 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-minify/package.json
+16 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-nunjucks-render/package.json
+17 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sass/package.json
+18 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/imagemin-pngquant/package.json
+19 verbose installManyTop reading scoped package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/sassdoc/package.json
+20 verbose readDependencies loading dependencies from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/package.json
+21 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/browser-sync/package.json
+22 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp/package.json
+23 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-autoprefixer/package.json
+24 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-concat/package.json
+25 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-imagemin/package.json
+26 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-minify/package.json
+27 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-nunjucks-render/package.json
+28 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sass/package.json
+29 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/imagemin-pngquant/package.json
+30 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/sassdoc/package.json
+31 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/.bin/browser-sync/package.json
+32 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/.bin/gulp/package.json
+33 verbose targetResolver reading package data from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/.bin/sassdoc/package.json
+34 verbose already installed skipping gulp-minify@^1.0.0 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+35 verbose already installed skipping gulp-nunjucks-render@^1.0.0 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+36 verbose already installed skipping gulp-sass@^2.1.0 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+37 silly cache add args [ 'gulp-sourcemaps@*', null ]
+38 verbose cache add spec gulp-sourcemaps@*
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'gulp-sourcemaps@*',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'gulp-sourcemaps',
+39 silly cache add   rawSpec: '*',
+39 silly cache add   spec: '*',
+39 silly cache add   type: 'range' }
+40 silly addNamed gulp-sourcemaps@*
+41 verbose addNamed "*" is a valid semver range for gulp-sourcemaps
+42 silly addNameRange { name: 'gulp-sourcemaps', range: '*', hasData: false }
+43 silly mapToRegistry name gulp-sourcemaps
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'gulp-sourcemaps',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'gulp-sourcemaps',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/gulp-sourcemaps
+48 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/gulp-sourcemaps not in flight; fetching
+49 verbose already installed skipping imagemin-pngquant@^5.0.1 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+50 verbose already installed skipping sassdoc@^2.1.15 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+51 verbose already installed skipping browser-sync@^2.9.11 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+52 verbose already installed skipping gulp@^3.9.0 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+53 verbose already installed skipping gulp-autoprefixer@^3.1.0 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+54 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/gulp-sourcemaps
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 2:19:03 PM
+57 verbose request id 2bcf8bfbfcd08dfb
+58 verbose etag 645ce9effb694ebc6b63f90ee494821beb114660
+59 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/gulp-sourcemaps
+60 verbose already installed skipping gulp-concat@^2.6.0 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+61 verbose already installed skipping gulp-imagemin@^3.4.0 /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+62 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/gulp-sourcemaps
+63 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+63 verbose headers   server: 'Artifactory/5.2.0',
+63 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+64 silly get cb [ 304,
+64 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+64 silly get     server: 'Artifactory/5.2.0',
+64 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+65 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/gulp-sourcemaps from cache
+66 verbose get saving gulp-sourcemaps to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/gulp-sourcemaps/.cache.json
+67 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+68 silly addNameRange number 2 { name: 'gulp-sourcemaps', range: '*', hasData: true }
+69 silly addNameRange versions [ 'gulp-sourcemaps',
+69 silly addNameRange   [ '0.4.2',
+69 silly addNameRange     '0.4.3',
+69 silly addNameRange     '0.4.0',
+69 silly addNameRange     '1.10.0',
+69 silly addNameRange     '0.4.1',
+69 silly addNameRange     '1.10.1',
+69 silly addNameRange     '0.4.6',
+69 silly addNameRange     '0.4.4',
+69 silly addNameRange     '0.4.5',
+69 silly addNameRange     '0.2.0',
+69 silly addNameRange     '0.2.1',
+69 silly addNameRange     '2.6.4',
+69 silly addNameRange     '2.0.0-alpha',
+69 silly addNameRange     '2.5.1',
+69 silly addNameRange     '2.5.2',
+69 silly addNameRange     '2.3.1',
+69 silly addNameRange     '2.5.0',
+69 silly addNameRange     '2.1.1',
+69 silly addNameRange     '2.3.0',
+69 silly addNameRange     '1.1.2',
+69 silly addNameRange     '1.3.0',
+69 silly addNameRange     '1.1.3',
+69 silly addNameRange     '1.1.4',
+69 silly addNameRange     '1.5.0',
+69 silly addNameRange     '1.1.5',
+69 silly addNameRange     '1.5.1',
+69 silly addNameRange     '1.5.2',
+69 silly addNameRange     '1.7.1',
+69 silly addNameRange     '1.9.0',
+69 silly addNameRange     '1.7.3',
+69 silly addNameRange     '1.9.1',
+69 silly addNameRange     '1.11.1',
+69 silly addNameRange     '1.1.0',
+69 silly addNameRange     '1.1.1',
+69 silly addNameRange     '0.3.1',
+69 silly addNameRange     '1.11.0',
+69 silly addNameRange     '1.9.2',
+69 silly addNameRange     '1.9.3',
+69 silly addNameRange     '0.3.0',
+69 silly addNameRange     '2.0.0',
+69 silly addNameRange     '2.0.1',
+69 silly addNameRange     '2.6.2',
+69 silly addNameRange     '2.6.3',
+69 silly addNameRange     '2.6.0',
+69 silly addNameRange     '2.6.1',
+69 silly addNameRange     '2.2.2',
+69 silly addNameRange     '2.4.0',
+69 silly addNameRange     '2.2.3',
+69 silly addNameRange     '2.4.1',
+69 silly addNameRange     '2.2.0',
+69 silly addNameRange     '2.2.1',
+69 silly addNameRange     '1.2.1',
+69 silly addNameRange     '1.2.2',
+69 silly addNameRange     '1.4.0',
+69 silly addNameRange     '1.2.3',
+69 silly addNameRange     '1.2.4',
+69 silly addNameRange     '1.6.0',
+69 silly addNameRange     '1.2.5',
+69 silly addNameRange     '1.2.6',
+69 silly addNameRange     '1.2.7',
+69 silly addNameRange     '1.8.1',
+69 silly addNameRange     '1.2.8',
+69 silly addNameRange     '1.12.0',
+69 silly addNameRange     '1.0.0',
+69 silly addNameRange     '1.12.1',
+69 silly addNameRange     '1.2.0' ] ]
+70 silly addNamed gulp-sourcemaps@2.6.4
+71 verbose addNamed "2.6.4" is a plain semver version for gulp-sourcemaps
+72 silly cache afterAdd gulp-sourcemaps@2.6.4
+73 verbose afterAdd /Users/pliskeb/.npm/gulp-sourcemaps/2.6.4/package/package.json not in flight; writing
+74 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+75 verbose afterAdd /Users/pliskeb/.npm/gulp-sourcemaps/2.6.4/package/package.json written
+76 silly install resolved [ { name: 'gulp-sourcemaps',
+76 silly install resolved     description: 'Source map support for Gulp.js',
+76 silly install resolved     version: '2.6.4',
+76 silly install resolved     author: { name: 'Florian Reiterer', email: 'me@florianreiterer.com' },
+76 silly install resolved     homepage: 'http://github.com/gulp-sourcemaps/gulp-sourcemaps',
+76 silly install resolved     repository:
+76 silly install resolved      { type: 'git',
+76 silly install resolved        url: 'git://github.com/gulp-sourcemaps/gulp-sourcemaps.git' },
+76 silly install resolved     bugs: { url: 'https://github.com/gulp-sourcemaps/gulp-sourcemaps/issues' },
+76 silly install resolved     engines: { node: '>=4' },
+76 silly install resolved     main: 'index.js',
+76 silly install resolved     dist:
+76 silly install resolved      { tarball: 'https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/gulp-sourcemaps/-/gulp-sourcemaps-2.6.4.tgz',
+76 silly install resolved        shasum: 'cbb2008450b1bcce6cd23bf98337be751bf6e30a' },
+76 silly install resolved     dependencies:
+76 silly install resolved      { '@gulp-sourcemaps/identity-map': '1.X',
+76 silly install resolved        '@gulp-sourcemaps/map-sources': '1.X',
+76 silly install resolved        acorn: '5.X',
+76 silly install resolved        'convert-source-map': '1.X',
+76 silly install resolved        css: '2.X',
+76 silly install resolved        'debug-fabulous': '1.X',
+76 silly install resolved        'detect-newline': '2.X',
+76 silly install resolved        'graceful-fs': '4.X',
+76 silly install resolved        'source-map': '~0.6.0',
+76 silly install resolved        'strip-bom-string': '1.X',
+76 silly install resolved        through2: '2.X' },
+76 silly install resolved     devDependencies:
+76 silly install resolved      { bootstrap: '3.3.7',
+76 silly install resolved        coveralls: '2.X',
+76 silly install resolved        faucet: '0.0.X',
+76 silly install resolved        gulp: '3.X',
+76 silly install resolved        'gulp-concat': '2.X',
+76 silly install resolved        'gulp-if': '2.X',
+76 silly install resolved        'gulp-less': '3.X',
+76 silly install resolved        'gulp-load-plugins': '1.X',
+76 silly install resolved        'hook-std': '0.2.X',
+76 silly install resolved        'http-server': '0.10.X',
+76 silly install resolved        istanbul: '0.X',
+76 silly install resolved        jshint: '2.X',
+76 silly install resolved        lodash: '4.X',
+76 silly install resolved        mississippi: '1.X',
+76 silly install resolved        'object-assign': '4.X',
+76 silly install resolved        tape: '4.X',
+76 silly install resolved        vinyl: '2.X',
+76 silly install resolved        yargs: '7.X' },
+76 silly install resolved     keywords: [ 'gulpplugin', 'gulp', 'source maps', 'sourcemaps' ],
+76 silly install resolved     license: 'ISC',
+76 silly install resolved     files: [ 'index.js', 'src' ],
+76 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+76 silly install resolved     directories: {},
+76 silly install resolved     scripts:
+76 silly install resolved      { lint: 'jshint ./src/**/*.js ./test/*.js',
+76 silly install resolved        test: 'npm run lint && faucet test/*.js $@',
+76 silly install resolved        tape: 'tape',
+76 silly install resolved        cover: 'istanbul cover --dir reports/coverage tape "test/*.js"',
+76 silly install resolved        coveralls: 'istanbul cover tape "test/*.js" --report lcovonly && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage',
+76 silly install resolved        serve: 'http-server',
+76 silly install resolved        'test:int': 'rm -rf ./tmp && tape ./test/integration.js' },
+76 silly install resolved     _from: 'gulp-sourcemaps@*',
+76 silly install resolved     _npmVersion: '4.4.4',
+76 silly install resolved     _npmUser: { name: 'nmccready', email: 'nemtcan@gmail.com' },
+76 silly install resolved     _id: 'gulp-sourcemaps@2.6.4',
+76 silly install resolved     gitHead: '492d937ffa0d5aa62a0d5b99ceb7deb2f472c7ad',
+76 silly install resolved     _npmOperationalInternal:
+76 silly install resolved      { host: 's3://npm-registry-packages',
+76 silly install resolved        tmp: 'tmp/gulp-sourcemaps-2.6.4.tgz_1516642065141_0.8249604387674481' },
+76 silly install resolved     _shasum: 'cbb2008450b1bcce6cd23bf98337be751bf6e30a',
+76 silly install resolved     _nodeVersion: '6.12.2',
+76 silly install resolved     _resolved: 'https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/gulp-sourcemaps/-/gulp-sourcemaps-2.6.4.tgz',
+76 silly install resolved     readme: 'ERROR: No README data found!' } ]
+77 info install gulp-sourcemaps@2.6.4 into /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+78 info installOne gulp-sourcemaps@2.6.4
+79 verbose installOne of gulp-sourcemaps to /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox not in flight; installing
+80 verbose correctMkdir /Users/pliskeb/.npm/_locks correctMkdir not in flight; initializing
+81 verbose lock using /Users/pliskeb/.npm/_locks/gulp-sourcemaps-635abdbf79749e19.lock for /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps
+82 silly install write writing gulp-sourcemaps 2.6.4 to /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps
+83 verbose unbuild node_modules/gulp-sourcemaps
+84 silly gentlyRm /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps is being purged from base /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+85 verbose gentlyRm don't care about contents; nuking /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps
+86 verbose tar unpack /Users/pliskeb/.npm/gulp-sourcemaps/2.6.4/package.tgz
+87 verbose tar unpacking to /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps
+88 silly gentlyRm /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps is being purged
+89 verbose gentlyRm don't care about contents; nuking /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps
+90 silly gunzTarPerm modes [ '755', '644' ]
+91 silly gunzTarPerm extractEntry package.json
+92 silly gunzTarPerm extractEntry README.md
+93 silly gunzTarPerm extractEntry index.js
+94 silly gunzTarPerm extractEntry LICENSE.md
+95 silly gunzTarPerm extractEntry src/debug.js
+96 silly gunzTarPerm extractEntry src/utils.js
+97 silly gunzTarPerm extractEntry src/init/index.internals.js
+98 silly gunzTarPerm extractEntry src/init/index.js
+99 silly gunzTarPerm extractEntry src/write/index.internals.js
+100 silly gunzTarPerm extractEntry src/write/index.js
+101 verbose write writing to /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps/package.json
+102 info preinstall gulp-sourcemaps@2.6.4
+103 verbose readDependencies loading dependencies from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps/package.json
+104 silly prepareForInstallMany adding @gulp-sourcemaps/identity-map@1.X from gulp-sourcemaps dependencies
+105 silly prepareForInstallMany adding @gulp-sourcemaps/map-sources@1.X from gulp-sourcemaps dependencies
+106 silly prepareForInstallMany adding acorn@5.X from gulp-sourcemaps dependencies
+107 silly prepareForInstallMany adding convert-source-map@1.X from gulp-sourcemaps dependencies
+108 silly prepareForInstallMany adding css@2.X from gulp-sourcemaps dependencies
+109 silly prepareForInstallMany adding debug-fabulous@1.X from gulp-sourcemaps dependencies
+110 silly prepareForInstallMany adding detect-newline@2.X from gulp-sourcemaps dependencies
+111 silly prepareForInstallMany adding graceful-fs@4.X from gulp-sourcemaps dependencies
+112 silly prepareForInstallMany adding source-map@~0.6.0 from gulp-sourcemaps dependencies
+113 silly prepareForInstallMany adding strip-bom-string@1.X from gulp-sourcemaps dependencies
+114 silly prepareForInstallMany adding through2@2.X from gulp-sourcemaps dependencies
+115 verbose readDependencies loading dependencies from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps/package.json
+116 silly cache add args [ 'acorn@5.X', null ]
+117 verbose cache add spec acorn@5.X
+118 silly cache add parsed spec Result {
+118 silly cache add   raw: 'acorn@5.X',
+118 silly cache add   scope: null,
+118 silly cache add   name: 'acorn',
+118 silly cache add   rawSpec: '5.X',
+118 silly cache add   spec: '>=5.0.0 <6.0.0',
+118 silly cache add   type: 'range' }
+119 silly addNamed acorn@>=5.0.0 <6.0.0
+120 verbose addNamed ">=5.0.0 <6.0.0" is a valid semver range for acorn
+121 silly addNameRange { name: 'acorn', range: '>=5.0.0 <6.0.0', hasData: false }
+122 silly mapToRegistry name acorn
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'acorn',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   name: 'acorn',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/acorn
+127 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/acorn not in flight; fetching
+128 silly cache add args [ 'convert-source-map@1.X', null ]
+129 verbose cache add spec convert-source-map@1.X
+130 silly cache add parsed spec Result {
+130 silly cache add   raw: 'convert-source-map@1.X',
+130 silly cache add   scope: null,
+130 silly cache add   name: 'convert-source-map',
+130 silly cache add   rawSpec: '1.X',
+130 silly cache add   spec: '>=1.0.0 <2.0.0',
+130 silly cache add   type: 'range' }
+131 silly addNamed convert-source-map@>=1.0.0 <2.0.0
+132 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for convert-source-map
+133 silly addNameRange { name: 'convert-source-map',
+133 silly addNameRange   range: '>=1.0.0 <2.0.0',
+133 silly addNameRange   hasData: false }
+134 silly mapToRegistry name convert-source-map
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+137 silly mapToRegistry data Result {
+137 silly mapToRegistry   raw: 'convert-source-map',
+137 silly mapToRegistry   scope: null,
+137 silly mapToRegistry   name: 'convert-source-map',
+137 silly mapToRegistry   rawSpec: '',
+137 silly mapToRegistry   spec: 'latest',
+137 silly mapToRegistry   type: 'tag' }
+138 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/convert-source-map
+139 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/convert-source-map not in flight; fetching
+140 silly cache add args [ 'css@2.X', null ]
+141 verbose cache add spec css@2.X
+142 silly cache add parsed spec Result {
+142 silly cache add   raw: 'css@2.X',
+142 silly cache add   scope: null,
+142 silly cache add   name: 'css',
+142 silly cache add   rawSpec: '2.X',
+142 silly cache add   spec: '>=2.0.0 <3.0.0',
+142 silly cache add   type: 'range' }
+143 silly addNamed css@>=2.0.0 <3.0.0
+144 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for css
+145 silly addNameRange { name: 'css', range: '>=2.0.0 <3.0.0', hasData: false }
+146 silly mapToRegistry name css
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+149 silly mapToRegistry data Result {
+149 silly mapToRegistry   raw: 'css',
+149 silly mapToRegistry   scope: null,
+149 silly mapToRegistry   name: 'css',
+149 silly mapToRegistry   rawSpec: '',
+149 silly mapToRegistry   spec: 'latest',
+149 silly mapToRegistry   type: 'tag' }
+150 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/css
+151 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/css not in flight; fetching
+152 silly cache add args [ 'debug-fabulous@1.X', null ]
+153 verbose cache add spec debug-fabulous@1.X
+154 silly cache add parsed spec Result {
+154 silly cache add   raw: 'debug-fabulous@1.X',
+154 silly cache add   scope: null,
+154 silly cache add   name: 'debug-fabulous',
+154 silly cache add   rawSpec: '1.X',
+154 silly cache add   spec: '>=1.0.0 <2.0.0',
+154 silly cache add   type: 'range' }
+155 silly addNamed debug-fabulous@>=1.0.0 <2.0.0
+156 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for debug-fabulous
+157 silly addNameRange { name: 'debug-fabulous',
+157 silly addNameRange   range: '>=1.0.0 <2.0.0',
+157 silly addNameRange   hasData: false }
+158 silly mapToRegistry name debug-fabulous
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+161 silly mapToRegistry data Result {
+161 silly mapToRegistry   raw: 'debug-fabulous',
+161 silly mapToRegistry   scope: null,
+161 silly mapToRegistry   name: 'debug-fabulous',
+161 silly mapToRegistry   rawSpec: '',
+161 silly mapToRegistry   spec: 'latest',
+161 silly mapToRegistry   type: 'tag' }
+162 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/debug-fabulous
+163 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/debug-fabulous not in flight; fetching
+164 silly cache add args [ 'detect-newline@2.X', null ]
+165 verbose cache add spec detect-newline@2.X
+166 silly cache add parsed spec Result {
+166 silly cache add   raw: 'detect-newline@2.X',
+166 silly cache add   scope: null,
+166 silly cache add   name: 'detect-newline',
+166 silly cache add   rawSpec: '2.X',
+166 silly cache add   spec: '>=2.0.0 <3.0.0',
+166 silly cache add   type: 'range' }
+167 silly addNamed detect-newline@>=2.0.0 <3.0.0
+168 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for detect-newline
+169 silly addNameRange { name: 'detect-newline',
+169 silly addNameRange   range: '>=2.0.0 <3.0.0',
+169 silly addNameRange   hasData: false }
+170 silly mapToRegistry name detect-newline
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'detect-newline',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   name: 'detect-newline',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/detect-newline
+175 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/detect-newline not in flight; fetching
+176 silly cache add args [ 'graceful-fs@4.X', null ]
+177 verbose cache add spec graceful-fs@4.X
+178 silly cache add parsed spec Result {
+178 silly cache add   raw: 'graceful-fs@4.X',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'graceful-fs',
+178 silly cache add   rawSpec: '4.X',
+178 silly cache add   spec: '>=4.0.0 <5.0.0',
+178 silly cache add   type: 'range' }
+179 silly addNamed graceful-fs@>=4.0.0 <5.0.0
+180 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for graceful-fs
+181 silly addNameRange { name: 'graceful-fs', range: '>=4.0.0 <5.0.0', hasData: false }
+182 silly mapToRegistry name graceful-fs
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'graceful-fs',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   name: 'graceful-fs',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/graceful-fs
+187 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/graceful-fs not in flight; fetching
+188 silly cache add args [ 'source-map@~0.6.0', null ]
+189 verbose cache add spec source-map@~0.6.0
+190 silly cache add parsed spec Result {
+190 silly cache add   raw: 'source-map@~0.6.0',
+190 silly cache add   scope: null,
+190 silly cache add   name: 'source-map',
+190 silly cache add   rawSpec: '~0.6.0',
+190 silly cache add   spec: '>=0.6.0 <0.7.0',
+190 silly cache add   type: 'range' }
+191 silly addNamed source-map@>=0.6.0 <0.7.0
+192 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for source-map
+193 silly addNameRange { name: 'source-map', range: '>=0.6.0 <0.7.0', hasData: false }
+194 silly mapToRegistry name source-map
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+197 silly mapToRegistry data Result {
+197 silly mapToRegistry   raw: 'source-map',
+197 silly mapToRegistry   scope: null,
+197 silly mapToRegistry   name: 'source-map',
+197 silly mapToRegistry   rawSpec: '',
+197 silly mapToRegistry   spec: 'latest',
+197 silly mapToRegistry   type: 'tag' }
+198 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/source-map
+199 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/source-map not in flight; fetching
+200 silly cache add args [ 'strip-bom-string@1.X', null ]
+201 verbose cache add spec strip-bom-string@1.X
+202 silly cache add parsed spec Result {
+202 silly cache add   raw: 'strip-bom-string@1.X',
+202 silly cache add   scope: null,
+202 silly cache add   name: 'strip-bom-string',
+202 silly cache add   rawSpec: '1.X',
+202 silly cache add   spec: '>=1.0.0 <2.0.0',
+202 silly cache add   type: 'range' }
+203 silly addNamed strip-bom-string@>=1.0.0 <2.0.0
+204 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for strip-bom-string
+205 silly addNameRange { name: 'strip-bom-string',
+205 silly addNameRange   range: '>=1.0.0 <2.0.0',
+205 silly addNameRange   hasData: false }
+206 silly mapToRegistry name strip-bom-string
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+209 silly mapToRegistry data Result {
+209 silly mapToRegistry   raw: 'strip-bom-string',
+209 silly mapToRegistry   scope: null,
+209 silly mapToRegistry   name: 'strip-bom-string',
+209 silly mapToRegistry   rawSpec: '',
+209 silly mapToRegistry   spec: 'latest',
+209 silly mapToRegistry   type: 'tag' }
+210 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/strip-bom-string
+211 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/strip-bom-string not in flight; fetching
+212 silly cache add args [ 'through2@2.X', null ]
+213 verbose cache add spec through2@2.X
+214 silly cache add parsed spec Result {
+214 silly cache add   raw: 'through2@2.X',
+214 silly cache add   scope: null,
+214 silly cache add   name: 'through2',
+214 silly cache add   rawSpec: '2.X',
+214 silly cache add   spec: '>=2.0.0 <3.0.0',
+214 silly cache add   type: 'range' }
+215 silly addNamed through2@>=2.0.0 <3.0.0
+216 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for through2
+217 silly addNameRange { name: 'through2', range: '>=2.0.0 <3.0.0', hasData: false }
+218 silly mapToRegistry name through2
+219 silly mapToRegistry using default registry
+220 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+221 silly mapToRegistry data Result {
+221 silly mapToRegistry   raw: 'through2',
+221 silly mapToRegistry   scope: null,
+221 silly mapToRegistry   name: 'through2',
+221 silly mapToRegistry   rawSpec: '',
+221 silly mapToRegistry   spec: 'latest',
+221 silly mapToRegistry   type: 'tag' }
+222 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/through2
+223 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/through2 not in flight; fetching
+224 silly cache add args [ '@gulp-sourcemaps/identity-map@1.X', null ]
+225 verbose cache add spec @gulp-sourcemaps/identity-map@1.X
+226 silly cache add parsed spec Result {
+226 silly cache add   raw: '@gulp-sourcemaps/identity-map@1.X',
+226 silly cache add   scope: '@gulp-sourcemaps',
+226 silly cache add   name: '@gulp-sourcemaps/identity-map',
+226 silly cache add   rawSpec: '1.X',
+226 silly cache add   spec: '>=1.0.0 <2.0.0',
+226 silly cache add   type: 'range' }
+227 silly addNamed @gulp-sourcemaps/identity-map@>=1.0.0 <2.0.0
+228 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for @gulp-sourcemaps/identity-map
+229 silly addNameRange { name: '@gulp-sourcemaps/identity-map',
+229 silly addNameRange   range: '>=1.0.0 <2.0.0',
+229 silly addNameRange   hasData: false }
+230 silly mapToRegistry name @gulp-sourcemaps/identity-map
+231 silly mapToRegistry scope (from package name) @gulp-sourcemaps
+232 verbose mapToRegistry no registry URL found in name for scope @gulp-sourcemaps
+233 silly mapToRegistry using default registry
+234 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+235 silly mapToRegistry data Result {
+235 silly mapToRegistry   raw: '@gulp-sourcemaps/identity-map',
+235 silly mapToRegistry   scope: '@gulp-sourcemaps',
+235 silly mapToRegistry   name: '@gulp-sourcemaps/identity-map',
+235 silly mapToRegistry   rawSpec: '',
+235 silly mapToRegistry   spec: 'latest',
+235 silly mapToRegistry   type: 'tag' }
+236 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fidentity-map
+237 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fidentity-map not in flight; fetching
+238 silly cache add args [ '@gulp-sourcemaps/map-sources@1.X', null ]
+239 verbose cache add spec @gulp-sourcemaps/map-sources@1.X
+240 silly cache add parsed spec Result {
+240 silly cache add   raw: '@gulp-sourcemaps/map-sources@1.X',
+240 silly cache add   scope: '@gulp-sourcemaps',
+240 silly cache add   name: '@gulp-sourcemaps/map-sources',
+240 silly cache add   rawSpec: '1.X',
+240 silly cache add   spec: '>=1.0.0 <2.0.0',
+240 silly cache add   type: 'range' }
+241 silly addNamed @gulp-sourcemaps/map-sources@>=1.0.0 <2.0.0
+242 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for @gulp-sourcemaps/map-sources
+243 silly addNameRange { name: '@gulp-sourcemaps/map-sources',
+243 silly addNameRange   range: '>=1.0.0 <2.0.0',
+243 silly addNameRange   hasData: false }
+244 silly mapToRegistry name @gulp-sourcemaps/map-sources
+245 silly mapToRegistry scope (from package name) @gulp-sourcemaps
+246 verbose mapToRegistry no registry URL found in name for scope @gulp-sourcemaps
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual
+249 silly mapToRegistry data Result {
+249 silly mapToRegistry   raw: '@gulp-sourcemaps/map-sources',
+249 silly mapToRegistry   scope: '@gulp-sourcemaps',
+249 silly mapToRegistry   name: '@gulp-sourcemaps/map-sources',
+249 silly mapToRegistry   rawSpec: '',
+249 silly mapToRegistry   spec: 'latest',
+249 silly mapToRegistry   type: 'tag' }
+250 silly mapToRegistry uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fmap-sources
+251 verbose addNameRange registry:https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fmap-sources not in flight; fetching
+252 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fidentity-map
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 2:19:04 PM
+255 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fidentity-map
+256 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/acorn
+257 verbose request no auth needed
+258 info attempt registry request try #1 at 2:19:04 PM
+259 verbose etag b793f12655f34eed91ee84ec8b751029e7984179
+260 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/acorn
+261 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/convert-source-map
+262 verbose request no auth needed
+263 info attempt registry request try #1 at 2:19:04 PM
+264 verbose etag 9b9343709c2453c33dcbdd7e57285853703f9760
+265 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/convert-source-map
+266 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/css
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 2:19:04 PM
+269 verbose etag f4df3c1ca3b0fc6acf4383447c7db8bb0012378e
+270 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/css
+271 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/debug-fabulous
+272 verbose request no auth needed
+273 info attempt registry request try #1 at 2:19:04 PM
+274 verbose etag 80b258bcba8cf1b6d725510037da336168611ad9
+275 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/debug-fabulous
+276 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/detect-newline
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 2:19:04 PM
+279 verbose etag c9e0a0cfce172690dd783debd5390926630c80de
+280 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/detect-newline
+281 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/graceful-fs
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 2:19:04 PM
+284 verbose etag 139225e7c43b71393accd3e32d02261df308d822
+285 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/graceful-fs
+286 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/source-map
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 2:19:04 PM
+289 verbose etag 97a20c82675d4a13cf8abd0ac60a1a54e16f979f
+290 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/source-map
+291 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/strip-bom-string
+292 verbose request no auth needed
+293 info attempt registry request try #1 at 2:19:04 PM
+294 verbose etag dcdd4c81ed837650b6d45c39098e6e90bf04c8ae
+295 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/strip-bom-string
+296 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/through2
+297 verbose request no auth needed
+298 info attempt registry request try #1 at 2:19:04 PM
+299 verbose etag 6d4f587a769c0a52fef24bbf9464b1ba76df895e
+300 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/through2
+301 verbose request uri https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fmap-sources
+302 verbose request no auth needed
+303 info attempt registry request try #1 at 2:19:04 PM
+304 verbose etag a530ad4bd0414476d7c7196dd2d2ef3fd34c1474
+305 http request GET https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fmap-sources
+306 http 404 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fidentity-map
+307 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+307 verbose headers   'content-type': 'application/json',
+307 verbose headers   'transfer-encoding': 'chunked',
+307 verbose headers   server: 'Artifactory/5.2.0',
+307 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+308 silly get cb [ 404,
+308 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+308 silly get     'content-type': 'application/json',
+308 silly get     'transfer-encoding': 'chunked',
+308 silly get     server: 'Artifactory/5.2.0',
+308 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+309 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/css
+310 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+310 verbose headers   server: 'Artifactory/5.2.0',
+310 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+311 silly get cb [ 304,
+311 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+311 silly get     server: 'Artifactory/5.2.0',
+311 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+312 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/css from cache
+313 verbose get saving css to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/css/.cache.json
+314 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+315 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/acorn
+316 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+316 verbose headers   server: 'Artifactory/5.2.0',
+316 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+317 silly get cb [ 304,
+317 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+317 silly get     server: 'Artifactory/5.2.0',
+317 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+318 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/acorn from cache
+319 verbose get saving acorn to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/acorn/.cache.json
+320 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+321 silly addNameRange number 2 { name: 'css', range: '>=2.0.0 <3.0.0', hasData: true }
+322 silly addNameRange versions [ 'css',
+322 silly addNameRange   [ '2.0.0',
+322 silly addNameRange     '2.1.0',
+322 silly addNameRange     '2.2.2',
+322 silly addNameRange     '2.2.3',
+322 silly addNameRange     '2.2.0',
+322 silly addNameRange     '2.2.1',
+322 silly addNameRange     '1.0.3',
+322 silly addNameRange     '1.3.0',
+322 silly addNameRange     '1.0.4',
+322 silly addNameRange     '1.3.1',
+322 silly addNameRange     '1.4.0',
+322 silly addNameRange     '1.0.5',
+322 silly addNameRange     '1.4.1',
+322 silly addNameRange     '1.0.6',
+322 silly addNameRange     '1.4.2',
+322 silly addNameRange     '1.6.0',
+322 silly addNameRange     '1.0.7',
+322 silly addNameRange     '1.4.3',
+322 silly addNameRange     '1.0.8',
+322 silly addNameRange     '1.4.4',
+322 silly addNameRange     '1.0.0',
+322 silly addNameRange     '1.0.1',
+322 silly addNameRange     '1.1.0',
+322 silly addNameRange     '1.0.2',
+322 silly addNameRange     '1.2.0' ] ]
+323 silly addNamed css@2.2.3
+324 verbose addNamed "2.2.3" is a plain semver version for css
+325 silly addNameRange number 2 { name: 'acorn', range: '>=5.0.0 <6.0.0', hasData: true }
+326 silly addNameRange versions [ 'acorn',
+326 silly addNameRange   [ '0.4.2',
+326 silly addNameRange     '0.6.0',
+326 silly addNameRange     '5.5.2',
+326 silly addNameRange     '5.5.3',
+326 silly addNameRange     '0.4.0',
+326 silly addNameRange     '0.8.0',
+326 silly addNameRange     '0.2.0',
+326 silly addNameRange     '0.0.1',
+326 silly addNameRange     '2.6.4',
+326 silly addNameRange     '0.10.0',
+326 silly addNameRange     '3.1.0',
+326 silly addNameRange     '3.3.0',
+326 silly addNameRange     '2.1.0',
+326 silly addNameRange     '0.12.0',
+326 silly addNameRange     '2.5.2',
+326 silly addNameRange     '2.7.0',
+326 silly addNameRange     '2.5.0',
+326 silly addNameRange     '2.3.0',
+326 silly addNameRange     '4.0.8',
+326 silly addNameRange     '4.0.9',
+326 silly addNameRange     '5.0.0',
+326 silly addNameRange     '5.0.1',
+326 silly addNameRange     '5.0.2',
+326 silly addNameRange     '5.2.0',
+326 silly addNameRange     '5.0.3',
+326 silly addNameRange     '5.2.1',
+326 silly addNameRange     '5.4.0',
+326 silly addNameRange     '1.1.0',
+326 silly addNameRange     '5.4.1',
+326 silly addNameRange     '4.0.13',
+326 silly addNameRange     '0.7.0',
+326 silly addNameRange     '0.3.1',
+326 silly addNameRange     '4.0.11',
+326 silly addNameRange     '0.5.0',
+326 silly addNameRange     '0.9.0',
+326 silly addNameRange     '4.0.2',
+326 silly addNameRange     '4.0.3',
+326 silly addNameRange     '4.0.0',
+326 silly addNameRange     '4.0.1',
+326 silly addNameRange     '4.0.6',
+326 silly addNameRange     '0.3.0',
+326 silly addNameRange     '4.0.7',
+326 silly addNameRange     '4.0.10',
+326 silly addNameRange     '4.0.4',
+326 silly addNameRange     '0.1.0',
+326 silly addNameRange     '4.0.5',
+326 silly addNameRange     '3.0.0',
+326 silly addNameRange     '3.0.2',
+326 silly addNameRange     '3.2.0',
+326 silly addNameRange     '3.0.4',
+326 silly addNameRange     '2.0.0',
+326 silly addNameRange     '2.0.1',
+326 silly addNameRange     '0.11.0',
+326 silly addNameRange     '2.6.2',
+326 silly addNameRange     '2.6.0',
+326 silly addNameRange     '2.0.4',
+326 silly addNameRange     '2.4.0',
+326 silly addNameRange     '2.2.0',
+326 silly addNameRange     '1.0.3',
+326 silly addNameRange     '1.2.1',
+326 silly addNameRange     '1.2.2',
+326 silly addNameRange     '5.1.0',
+326 silly addNameRange     '5.1.1',
+326 silly addNameRange     '5.1.2',
+326 silly addNameRange     '5.3.0',
+326 silly addNameRange     '1.0.0',
+326 silly addNameRange     '1.0.1',
+326 silly addNameRange     '5.5.0',
+326 silly addNameRange     '1.2.0',
+326 silly addNameRange     '5.5.1' ] ]
+327 silly addNamed acorn@5.5.3
+328 verbose addNamed "5.5.3" is a plain semver version for acorn
+329 silly cache afterAdd css@2.2.3
+330 verbose afterAdd /Users/pliskeb/.npm/css/2.2.3/package/package.json not in flight; writing
+331 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+332 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/convert-source-map
+333 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+333 verbose headers   server: 'Artifactory/5.2.0',
+333 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+334 silly get cb [ 304,
+334 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+334 silly get     server: 'Artifactory/5.2.0',
+334 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+335 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/convert-source-map from cache
+336 verbose get saving convert-source-map to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/convert-source-map/.cache.json
+337 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+338 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/strip-bom-string
+339 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+339 verbose headers   server: 'Artifactory/5.2.0',
+339 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+340 silly get cb [ 304,
+340 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+340 silly get     server: 'Artifactory/5.2.0',
+340 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+341 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/strip-bom-string from cache
+342 verbose get saving strip-bom-string to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/strip-bom-string/.cache.json
+343 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+344 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/detect-newline
+345 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+345 verbose headers   server: 'Artifactory/5.2.0',
+345 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+346 silly get cb [ 304,
+346 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+346 silly get     server: 'Artifactory/5.2.0',
+346 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+347 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/detect-newline from cache
+348 verbose get saving detect-newline to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/detect-newline/.cache.json
+349 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+350 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fmap-sources
+351 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+351 verbose headers   server: 'Artifactory/5.2.0',
+351 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+352 silly get cb [ 304,
+352 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+352 silly get     server: 'Artifactory/5.2.0',
+352 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+353 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/@gulp-sourcemaps%2fmap-sources from cache
+354 verbose get saving @gulp-sourcemaps/map-sources to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/_40gulp-sourcemaps_252fmap-sources/.cache.json
+355 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+356 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/through2
+357 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+357 verbose headers   server: 'Artifactory/5.2.0',
+357 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+358 silly get cb [ 304,
+358 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+358 silly get     server: 'Artifactory/5.2.0',
+358 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+359 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/through2 from cache
+360 verbose get saving through2 to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/through2/.cache.json
+361 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+362 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/debug-fabulous
+363 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+363 verbose headers   server: 'Artifactory/5.2.0',
+363 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+364 silly get cb [ 304,
+364 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+364 silly get     server: 'Artifactory/5.2.0',
+364 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+365 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/debug-fabulous from cache
+366 verbose get saving debug-fabulous to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/debug-fabulous/.cache.json
+367 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+368 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/graceful-fs
+369 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+369 verbose headers   server: 'Artifactory/5.2.0',
+369 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+370 silly get cb [ 304,
+370 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+370 silly get     server: 'Artifactory/5.2.0',
+370 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+371 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/graceful-fs from cache
+372 verbose get saving graceful-fs to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/graceful-fs/.cache.json
+373 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+374 silly cache afterAdd acorn@5.5.3
+375 verbose afterAdd /Users/pliskeb/.npm/acorn/5.5.3/package/package.json not in flight; writing
+376 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+377 verbose afterAdd /Users/pliskeb/.npm/css/2.2.3/package/package.json written
+378 silly addNameRange number 2 { name: 'convert-source-map',
+378 silly addNameRange   range: '>=1.0.0 <2.0.0',
+378 silly addNameRange   hasData: true }
+379 silly addNameRange versions [ 'convert-source-map',
+379 silly addNameRange   [ '0.2.4',
+379 silly addNameRange     '0.3.3',
+379 silly addNameRange     '0.5.1',
+379 silly addNameRange     '0.6.0',
+379 silly addNameRange     '0.2.5',
+379 silly addNameRange     '0.3.4',
+379 silly addNameRange     '0.7.0',
+379 silly addNameRange     '0.2.2',
+379 silly addNameRange     '0.3.1',
+379 silly addNameRange     '0.4.0',
+379 silly addNameRange     '0.2.3',
+379 silly addNameRange     '0.3.2',
+379 silly addNameRange     '0.4.1',
+379 silly addNameRange     '0.5.0',
+379 silly addNameRange     '0.2.6',
+379 silly addNameRange     '0.3.5',
+379 silly addNameRange     '0.7.1',
+379 silly addNameRange     '0.2.0',
+379 silly addNameRange     '0.2.1',
+379 silly addNameRange     '0.3.0',
+379 silly addNameRange     '0.1.0',
+379 silly addNameRange     '1.1.2',
+379 silly addNameRange     '1.3.0',
+379 silly addNameRange     '1.1.3',
+379 silly addNameRange     '1.4.0',
+379 silly addNameRange     '1.5.0',
+379 silly addNameRange     '1.5.1',
+379 silly addNameRange     '1.0.0',
+379 silly addNameRange     '1.1.0',
+379 silly addNameRange     '1.1.1',
+379 silly addNameRange     '1.2.0' ] ]
+380 silly addNamed convert-source-map@1.5.1
+381 verbose addNamed "1.5.1" is a plain semver version for convert-source-map
+382 verbose afterAdd /Users/pliskeb/.npm/acorn/5.5.3/package/package.json written
+383 http 304 https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/source-map
+384 verbose headers { date: 'Fri, 04 May 2018 21:17:00 GMT',
+384 verbose headers   server: 'Artifactory/5.2.0',
+384 verbose headers   'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' }
+385 silly get cb [ 304,
+385 silly get   { date: 'Fri, 04 May 2018 21:17:00 GMT',
+385 silly get     server: 'Artifactory/5.2.0',
+385 silly get     'x-artifactory-id': '477d4b4d0a284cbf:-4bd55715:16328eeb5df:-7ffd' } ]
+386 verbose etag https://artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/source-map from cache
+387 verbose get saving source-map to /Users/pliskeb/.npm/artifactory.gannettdigital.com/artifactory/api/npm/cs-node-virtual/source-map/.cache.json
+388 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+389 silly addNameRange number 2 { name: 'through2', range: '>=2.0.0 <3.0.0', hasData: true }
+390 silly addNameRange versions [ 'through2',
+390 silly addNameRange   [ '0.4.2',
+390 silly addNameRange     '0.5.1',
+390 silly addNameRange     '0.6.0',
+390 silly addNameRange     '0.6.1',
+390 silly addNameRange     '0.0.4',
+390 silly addNameRange     '0.2.2',
+390 silly addNameRange     '0.4.0',
+390 silly addNameRange     '0.0.5',
+390 silly addNameRange     '0.2.3',
+390 silly addNameRange     '0.4.1',
+390 silly addNameRange     '0.5.0',
+390 silly addNameRange     '0.6.4',
+390 silly addNameRange     '0.6.5',
+390 silly addNameRange     '0.6.2',
+390 silly addNameRange     '0.6.3',
+390 silly addNameRange     '0.0.2',
+390 silly addNameRange     '0.2.0',
+390 silly addNameRange     '0.0.3',
+390 silly addNameRange     '0.2.1',
+390 silly addNameRange     '0.3.0',
+390 silly addNameRange     '0.0.0',
+390 silly addNameRange     '0.0.1',
+390 silly addNameRange     '0.1.0',
+390 silly addNameRange     '2.0.0',
+390 silly addNameRange     '2.0.1',
+390 silly addNameRange     '2.0.2',
+390 silly addNameRange     '2.0.3',
+390 silly addNameRange     '1.0.0',
+390 silly addNameRange     '1.1.0',
+390 silly addNameRange     '1.1.1' ] ]
+391 silly addNamed through2@2.0.3
+392 verbose addNamed "2.0.3" is a plain semver version for through2
+393 silly addNameRange number 2 { name: 'strip-bom-string',
+393 silly addNameRange   range: '>=1.0.0 <2.0.0',
+393 silly addNameRange   hasData: true }
+394 silly addNameRange versions [ 'strip-bom-string', [ '0.1.1', '0.1.2', '1.0.0', '0.1.0' ] ]
+395 silly addNamed strip-bom-string@1.0.0
+396 verbose addNamed "1.0.0" is a plain semver version for strip-bom-string
+397 silly addNameRange number 2 { name: 'detect-newline',
+397 silly addNameRange   range: '>=2.0.0 <3.0.0',
+397 silly addNameRange   hasData: true }
+398 silly addNameRange versions [ 'detect-newline',
+398 silly addNameRange   [ '1.0.3',
+398 silly addNameRange     '2.0.0',
+398 silly addNameRange     '2.0.1',
+398 silly addNameRange     '2.1.0',
+398 silly addNameRange     '0.1.1',
+398 silly addNameRange     '1.0.0',
+398 silly addNameRange     '1.0.1',
+398 silly addNameRange     '0.1.0',
+398 silly addNameRange     '1.0.2' ] ]
+399 silly addNamed detect-newline@2.1.0
+400 verbose addNamed "2.1.0" is a plain semver version for detect-newline
+401 silly addNameRange number 2 { name: '@gulp-sourcemaps/map-sources',
+401 silly addNameRange   range: '>=1.0.0 <2.0.0',
+401 silly addNameRange   hasData: true }
+402 silly addNameRange versions [ '@gulp-sourcemaps/map-sources', [ '1.0.0' ] ]
+403 silly addNamed @gulp-sourcemaps/map-sources@1.0.0
+404 verbose addNamed "1.0.0" is a plain semver version for @gulp-sourcemaps/map-sources
+405 silly addNameRange number 2 { name: 'debug-fabulous',
+405 silly addNameRange   range: '>=1.0.0 <2.0.0',
+405 silly addNameRange   hasData: true }
+406 silly addNameRange versions [ 'debug-fabulous',
+406 silly addNameRange   [ '0.0.4',
+406 silly addNameRange     '0.0.2',
+406 silly addNameRange     '0.1.1',
+406 silly addNameRange     '0.0.3',
+406 silly addNameRange     '0.1.2',
+406 silly addNameRange     '0.2.1',
+406 silly addNameRange     '1.0.0',
+406 silly addNameRange     '1.1.0',
+406 silly addNameRange     '0.1.0' ] ]
+407 silly addNamed debug-fabulous@1.1.0
+408 verbose addNamed "1.1.0" is a plain semver version for debug-fabulous
+409 silly addNameRange number 2 { name: 'graceful-fs', range: '>=4.0.0 <5.0.0', hasData: true }
+410 silly addNameRange versions [ 'graceful-fs',
+410 silly addNameRange   [ '4.1.1',
+410 silly addNameRange     '4.1.2',
+410 silly addNameRange     '4.1.0',
+410 silly addNameRange     '4.1.5',
+410 silly addNameRange     '4.1.6',
+410 silly addNameRange     '4.1.3',
+410 silly addNameRange     '4.1.4',
+410 silly addNameRange     '1.1.13',
+410 silly addNameRange     '1.1.14',
+410 silly addNameRange     '3.0.9',
+410 silly addNameRange     '1.1.10',
+410 silly addNameRange     '1.1.11',
+410 silly addNameRange     '1.1.12',
+410 silly addNameRange     '4.1.11',
+410 silly addNameRange     '4.1.10',
+410 silly addNameRange     '1.1.2',
+410 silly addNameRange     '1.1.3',
+410 silly addNameRange     '1.1.4',
+410 silly addNameRange     '1.1.5',
+410 silly addNameRange     '1.1.6',
+410 silly addNameRange     '1.1.7',
+410 silly addNameRange     '1.1.8',
+410 silly addNameRange     '1.1.9',
+410 silly addNameRange     '1.1.0',
+410 silly addNameRange     '1.1.1',
+410 silly addNameRange     '3.0.0',
+410 silly addNameRange     '3.0.5',
+410 silly addNameRange     '3.0.6',
+410 silly addNameRange     '3.0.7',
+410 silly addNameRange     '3.0.8',
+410 silly addNameRange     '3.0.1',
+410 silly addNameRange     '3.0.11',
+410 silly addNameRange     '3.0.2',
+410 silly addNameRange     '3.0.10',
+410 silly addNameRange     '3.0.3',
+410 silly addNameRange     '3.0.4',
+410 silly addNameRange     '2.0.0',
+410 silly addNameRange     '2.0.1',
+410 silly addNameRange     '2.0.2',
+410 silly addNameRange     '2.0.3',
+410 silly addNameRange     '1.2.1',
+410 silly addNameRange     '4.1.9',
+410 silly addNameRange     '1.2.2',
+410 silly addNameRange     '1.2.3',
+410 silly addNameRange     '4.1.7',
+410 silly addNameRange     '4.1.8',
+410 silly addNameRange     '1.0.0',
+410 silly addNameRange     '1.0.1',
+410 silly addNameRange     '1.0.2',
+410 silly addNameRange     '1.2.0' ] ]
+411 silly addNamed graceful-fs@4.1.11
+412 verbose addNamed "4.1.11" is a plain semver version for graceful-fs
+413 silly cache afterAdd convert-source-map@1.5.1
+414 verbose afterAdd /Users/pliskeb/.npm/convert-source-map/1.5.1/package/package.json not in flight; writing
+415 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+416 silly cache afterAdd through2@2.0.3
+417 verbose afterAdd /Users/pliskeb/.npm/through2/2.0.3/package/package.json not in flight; writing
+418 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+419 silly cache afterAdd detect-newline@2.1.0
+420 verbose afterAdd /Users/pliskeb/.npm/detect-newline/2.1.0/package/package.json not in flight; writing
+421 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+422 silly cache afterAdd debug-fabulous@1.1.0
+423 verbose afterAdd /Users/pliskeb/.npm/debug-fabulous/1.1.0/package/package.json not in flight; writing
+424 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+425 silly cache afterAdd strip-bom-string@1.0.0
+426 verbose afterAdd /Users/pliskeb/.npm/strip-bom-string/1.0.0/package/package.json not in flight; writing
+427 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+428 silly cache afterAdd @gulp-sourcemaps/map-sources@1.0.0
+429 verbose afterAdd /Users/pliskeb/.npm/@gulp-sourcemaps/map-sources/1.0.0/package/package.json not in flight; writing
+430 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+431 silly cache afterAdd graceful-fs@4.1.11
+432 verbose afterAdd /Users/pliskeb/.npm/graceful-fs/4.1.11/package/package.json not in flight; writing
+433 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+434 silly addNameRange number 2 { name: 'source-map', range: '>=0.6.0 <0.7.0', hasData: true }
+435 silly addNameRange versions [ 'source-map',
+435 silly addNameRange   [ '0.4.2',
+435 silly addNameRange     '0.6.0',
+435 silly addNameRange     '0.4.3',
+435 silly addNameRange     '0.6.1',
+435 silly addNameRange     '0.4.0',
+435 silly addNameRange     '0.4.1',
+435 silly addNameRange     '0.1.19',
+435 silly addNameRange     '0.1.18',
+435 silly addNameRange     '0.1.17',
+435 silly addNameRange     '0.4.4',
+435 silly addNameRange     '0.1.16',
+435 silly addNameRange     '0.2.0',
+435 silly addNameRange     '0.0.0',
+435 silly addNameRange     '0.1.26',
+435 silly addNameRange     '0.1.25',
+435 silly addNameRange     '0.1.24',
+435 silly addNameRange     '0.1.23',
+435 silly addNameRange     '0.1.22',
+435 silly addNameRange     '0.1.21',
+435 silly addNameRange     '0.1.20',
+435 silly addNameRange     '0.1.29',
+435 silly addNameRange     '0.1.28',
+435 silly addNameRange     '0.1.27',
+435 silly addNameRange     '0.1.37',
+435 silly addNameRange     '0.1.36',
+435 silly addNameRange     '0.1.35',
+435 silly addNameRange     '0.5.7',
+435 silly addNameRange     '0.1.34',
+435 silly addNameRange     '0.1.33',
+435 silly addNameRange     '0.1.32',
+435 silly addNameRange     '0.1.31',
+435 silly addNameRange     '0.1.30',
+435 silly addNameRange     '0.1.5',
+435 silly addNameRange     '0.5.1',
+435 silly addNameRange     '0.1.6',
+435 silly addNameRange     '0.5.2',
+435 silly addNameRange     '0.7.0',
+435 silly addNameRange     '0.1.3',
+435 silly addNameRange     '0.1.4',
+435 silly addNameRange     '0.5.0',
+435 silly addNameRange     '0.1.9',
+435 silly addNameRange     '0.5.5',
+435 silly addNameRange     '0.5.6',
+435 silly addNameRange     '1.0.0-art-external1',
+435 silly addNameRange     '0.1.7',
+435 silly addNameRange     '0.1.39',
+435 silly addNameRange     '0.5.3',
+435 silly addNameRange     '0.7.1',
+435 silly addNameRange     '0.1.8',
+435 silly addNameRange     '0.1.38',
+435 silly addNameRange     '0.5.4',
+435 silly addNameRange     '0.7.2',
+435 silly addNameRange     '0.1.1',
+435 silly addNameRange     '0.1.2',
+435 silly addNameRange     '0.3.0',
+435 silly addNameRange     '0.1.0',
+435 silly addNameRange     '0.1.40',
+435 silly addNameRange     '0.1.43',
+435 silly addNameRange     '0.1.42',
+435 silly addNameRange     '0.1.41',
+435 silly addNameRange     '0.1.15',
+435 silly addNameRange     '0.1.14',
+435 silly addNameRange     '0.1.13',
+435 silly addNameRange     '0.1.12',
+435 silly addNameRange     '0.1.11',
+435 silly addNameRange     '0.1.10' ] ]
+436 silly addNamed source-map@0.6.1
+437 verbose addNamed "0.6.1" is a plain semver version for source-map
+438 verbose afterAdd /Users/pliskeb/.npm/convert-source-map/1.5.1/package/package.json written
+439 verbose afterAdd /Users/pliskeb/.npm/through2/2.0.3/package/package.json written
+440 verbose afterAdd /Users/pliskeb/.npm/detect-newline/2.1.0/package/package.json written
+441 verbose afterAdd /Users/pliskeb/.npm/strip-bom-string/1.0.0/package/package.json written
+442 verbose afterAdd /Users/pliskeb/.npm/debug-fabulous/1.1.0/package/package.json written
+443 verbose afterAdd /Users/pliskeb/.npm/@gulp-sourcemaps/map-sources/1.0.0/package/package.json written
+444 verbose afterAdd /Users/pliskeb/.npm/graceful-fs/4.1.11/package/package.json written
+445 silly cache afterAdd source-map@0.6.1
+446 verbose afterAdd /Users/pliskeb/.npm/source-map/0.6.1/package/package.json not in flight; writing
+447 verbose correctMkdir /Users/pliskeb/.npm correctMkdir not in flight; initializing
+448 verbose afterAdd /Users/pliskeb/.npm/source-map/0.6.1/package/package.json written
+449 verbose about to build /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps
+450 verbose unlock done using /Users/pliskeb/.npm/_locks/gulp-sourcemaps-635abdbf79749e19.lock for /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps
+451 verbose stack Error: 404 Not Found: @gulp-sourcemaps/identity-map
+451 verbose stack     at makeError (/Users/pliskeb/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+451 verbose stack     at CachingRegistryClient.<anonymous> (/Users/pliskeb/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:250:14)
+451 verbose stack     at Request._callback (/Users/pliskeb/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+451 verbose stack     at Request.self.callback (/Users/pliskeb/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/request/request.js:200:22)
+451 verbose stack     at emitTwo (events.js:87:13)
+451 verbose stack     at Request.emit (events.js:172:7)
+451 verbose stack     at Request.<anonymous> (/Users/pliskeb/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+451 verbose stack     at emitOne (events.js:82:20)
+451 verbose stack     at Request.emit (events.js:169:7)
+451 verbose stack     at IncomingMessage.<anonymous> (/Users/pliskeb/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/request/request.js:988:12)
+452 verbose statusCode 404
+453 verbose pkgid @gulp-sourcemaps/identity-map
+454 verbose cwd /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+455 error Darwin 15.6.0
+456 error argv "/Users/pliskeb/.nvm/versions/node/v4.4.7/bin/node" "/Users/pliskeb/.nvm/versions/node/v4.4.7/bin/npm" "install"
+457 error node v4.4.7
+458 error npm  v2.15.8
+459 error code E404
+460 error 404 Not Found: @gulp-sourcemaps/identity-map
+460 error 404
+460 error 404 '@gulp-sourcemaps/identity-map' is not in the npm registry.
+460 error 404 You should bug the author to publish it (or use the name yourself!)
+460 error 404 It was specified as a dependency of 'gulp-sourcemaps'
+460 error 404
+460 error 404 Note that you can also install from a
+460 error 404 tarball, folder, http url, or git url.
+461 verbose exit [ 1, true ]
+462 verbose unbuild node_modules/gulp-sourcemaps
+463 info preuninstall gulp-sourcemaps@2.6.4
+464 info uninstall gulp-sourcemaps@2.6.4
+465 verbose unbuild rmStuff gulp-sourcemaps@2.6.4 from /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules
+466 info postuninstall gulp-sourcemaps@2.6.4
+467 silly gentlyRm /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps is being purged from base /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox
+468 verbose gentlyRm don't care about contents; nuking /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps
+469 silly vacuum-fs purging /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules/gulp-sourcemaps
+470 silly vacuum-fs quitting because other entries in /Users/pliskeb/Documents/projects/remote/remote-training/grid-fallbacks/flexbox/node_modules
