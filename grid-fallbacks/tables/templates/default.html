@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head partial -->
+{% include "partials/head.html" %}
+
+<body>
+
+  <!-- header partial -->
+  {% include "partials/header.html" %}
+  <!-- main content partial -->
+  {% block content %}{% endblock %}
+  <!-- footer partial -->
+  {% include "partials/footer.html" %}
+  <!-- scripts partial -->
+  {% include "partials/scripts.html" %}
+
+</body>
+
+</html>
