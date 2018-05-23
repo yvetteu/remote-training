@@ -103,11 +103,49 @@ h1 {
     .grid {
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 0 -5px;
+        margin: 40px auto;
+        min-height: 96px;
+        padding: 0;
+        width: 880px;
     }
 
     .item {
         align-items: center;
         display: flex;
         justify-content: center;
+        margin: 5px;
+        min-height: 96px;
+        min-width: 238px;
+
+        order: 0;
+    }
+    .sidebar,
+    .hero {
+        flex-basis: 33%;
+    }
+    .hero {
+        height: 284px;
+    }
+    .extra,
+    .images,
+    .main {
+        flex-basis: calc(66% - 12px);
+    }
+    .images {
+        flex: 2;
+        height: 166px;
+    }
+    .main {
+        height: 460px;
+    }
+    .extra {
+        height: 206px;
+    }
+    .sidebar {
+        display: table-cell !important;
+        text-align: center;
+        vertical-align: middle !important;
     }
 }
