@@ -13,3 +13,139 @@ span {
     padding: 0;
     position: relative;
 }
+.grid {
+    margin: 40px auto;
+    width: 880px;
+}
+.item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: #ffffff;
+    font: 20px/20px Arial, Helvetica, sans-serif;
+}
+.header {
+    background: $header;
+}
+.footer {
+    background: $footer;
+}
+.hero {
+    background: $hero;
+}
+.main {
+    background: $main;
+}
+.sidebar {
+    background: $sidebar;
+}
+.extra {
+    background: $extra;
+}
+.images {
+    background: $images;
+}
+.posts {
+    background: $posts;
+}
+
+@supports (display: grid) {
+    .grid {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas: "head head head"
+        "hero main main"
+        "sidebar main main"
+        "sidebar extra extra"
+        "images images posts"
+        "foot foot foot";
+        grid-template-columns: 284px 278px 278px;
+        grid-template-rows: 96px 284px 166px 206px 206px 96px;
+    }
+    .item {
+        align-items: center;
+        display: grid;
+        justify-content: center;
+    }
+    .header {
+        grid-area: head;
+    }
+    .footer {
+        grid-area: foot;
+    }
+    .hero {
+        grid-area: hero;
+        grid-row: 2/3;
+    }
+    .extra {
+        grid-area: extra;
+    }
+    .images {
+        grid-area: images;
+        grid-row: 5/6;
+    }
+    .posts {
+        grid-area: posts;
+        grid-row: 5/6;
+    }
+    .sidebar {
+        grid-area: sidebar;
+        grid-row: 3/5;
+    }
+    .main {
+        grid-area: main;
+        grid-row: 2/4;
+    }
+}
+@supports not (display: grid) {
+    .grid {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 0 -5px;
+        margin: 40px auto;
+        min-height: 96px;
+        padding: 0;
+        width: 880px;
+    }
+
+    .item {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        min-height: 96px;
+        min-width: 238px;
+
+        order: 0;
+    }
+    .sidebar,
+    .hero {
+        flex-basis: 33%;
+    }
+    .hero {
+        height: 284px;
+    }
+    .extra,
+    .images,
+    .main {
+        flex-basis: calc(66% - 12px);
+    }
+    .images {
+        flex: 2;
+        height: 166px;
+    }
+    .main {
+        height: 460px;
+    }
+    .extra {
+        height: 206px;
+    }
+    .sidebar {
+        display: table-cell !important;
+        text-align: center;
+        vertical-align: middle !important;
+    }
+}

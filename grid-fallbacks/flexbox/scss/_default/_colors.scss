@@ -1,34 +1,12 @@
 /* *********************** */
-/* ***** MAIN COLORS *****
+/* ***** SECTION COLORS *****
 /* *********************** */
 
-$london: #666666;
-$sydney: #0099ff;
-$paris: #cccccc;
-$rome: #cccccc;
-$dublin: #cccccc;
-$footer: #7d8082;
-
-/* **************************** */
-/* ***** MAIN COLOR MIXES *****
-/* **************************** */
-
-$londonLight: mix(white, $london, 30%);
-$londonDark: mix(black, $rome, 30%);
-$sydneyLight: mix(white, $sydney, 30%);
-$sydneyDark: mix(black, $sydney, 30%);
-$parisLight: mix(white, $paris, 30%);
-$parisDark: mix(black, $paris, 30%);
-$romeLight: mix(white, $rome, 30%);
-$romeDark: mix(black, $rome, 30%);
-$dublinLight: mix(white, $dublin, 30%);
-$dublinDark: mix(black, $dublin, 30%);
-$sydneyLight: mix(white, $sydney, 30%);
-$sydneyDark: mix(black, $sydney, 30%);
-
-/* ***************************** */
-/* ***** TEXT *****
-/* ***************************** */
-
-$text: $london;
-$textBold: $londonDark;
+$extra: #666666;
+$sidebar: #82b12e;
+$main: #f2b601;
+$hero: #cebada;
+$header: #00c9e6;
+$footer: #fd8901;
+$images: #06a147;
+$posts: #f0bfd5;
