@@ -1,5 +1,88 @@
-.button {
+.container {
     background: #2eb0b5;
     height: 203px;
+    position: relative;
     width: 209px;
+}
+
+.button {
+    height: auto;
+    height: 61px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+}
+
+.line {
+    background: #ffffff;
+    border-radius: 6px;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 75px;
+}
+
+.line-1 {
+    animation: moveDown .3s 3s ease-in forwards,
+    rotate .3s 3.3s ease-in forwards, rotate .3s 6s ease-in reverse forwards,
+    moveDown .3s 6.3s ease-in reverse forwards;
+    top: 2px;
+}
+.line-2 {
+    animation: hide .1s 3s ease forwards, hide .1s 6.3s ease reverse forwards;
+    top: 25px;
+}
+.line-3 {
+    animation: moveUp .3s 3s ease-in forwards,
+    rotateMore .3s 3.3s ease-in forwards,
+    rotateMore .3s 6s ease-in reverse forwards,
+    moveUp .3s 6.3s ease-in reverse forwards;
+    top: 48px;
+}
+
+@keyframes moveDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(23px);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-23px);
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateY(23px) rotateZ(0deg);
+    }
+    100% {
+        transform: translateY(23px) rotateZ(45deg);
+    }
+}
+
+@keyframes rotateMore {
+    0% {
+        transform: translateY(-23px) rotateZ(0deg);
+    }
+    100% {
+        transform: translateY(-23px) rotateZ(135deg);
+    }
 }
