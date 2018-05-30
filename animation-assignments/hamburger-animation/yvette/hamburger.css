@@ -25,20 +25,21 @@
 }
 
 .line-1 {
-    animation: moveDown .3s 3s ease-in forwards,
-    rotate .3s 3.3s ease-in forwards, rotate .3s 6s ease-in reverse forwards,
-    moveDown .3s 6.3s ease-in reverse forwards;
+    animation: moveDown .25s 3s ease-in forwards,
+    rotate .25s 3.25s ease-in forwards,
+    rotate .25s 6s ease-in reverse forwards,
+    moveDown .25s 6.25s ease-in reverse forwards;
     top: 2px;
 }
 .line-2 {
-    animation: hide .1s 3s ease forwards, hide .1s 6.3s ease reverse forwards;
+    animation: hide .1s 3s ease forwards, hide .1s 6.25s ease reverse forwards;
     top: 25px;
 }
 .line-3 {
-    animation: moveUp .3s 3s ease-in forwards,
-    rotateMore .3s 3.3s ease-in forwards,
-    rotateMore .3s 6s ease-in reverse forwards,
-    moveUp .3s 6.3s ease-in reverse forwards;
+    animation: moveUp .25s 3s ease-in forwards,
+    rotateMore .25s 3.25s ease-in forwards,
+    rotateMore .25s 6s ease-in reverse forwards,
+    moveUp .25s 6.25s ease-in reverse forwards;
     top: 48px;
 }
 
